@@ -6,6 +6,8 @@ const ALLOWED_SCHEMES = new Set([
   'sftp',
   'mailto',
   'tel',
+  // Reader: links into the Reader library (reader://item/<id>).
+  'reader',
 ]);
 
 // https://publicsuffix.org/
